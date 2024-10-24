@@ -1,0 +1,72 @@
+<crash>
+  <info>
+    <cause>Fatal exception</cause>
+    <time>2013-12-12T20:40:54</time>
+    <version>3.0.4</version>
+  </info>
+  <trace>
+    <frame id='0' loc='7295B9F0'>
+      <name>strlen</name>
+      <module><![CDATA[]]></module>
+    </frame>
+    <frame id='1' loc='70A57169'>
+      <name>std::basic_string<char,std::char_traits<char>,std::allocator<char> >::basic_string<char,std::char_traits<char>,std::allocator<char> ></name>
+      <module><![CDATA[]]></module>
+    </frame>
+    <frame id='2' loc='005FFD97'>
+      <name>Automation4::lua_threaded_call</name>
+      <file line='742'>c:\msys\src\aegisub\aegisub\src\auto4_lua.cpp</file>
+      <module><![CDATA[]]></module>
+    </frame>
+    <frame id='3' loc='0008F809'>
+      <name>std::tr1::_Impl1<std::tr1::_Callable_obj<std::tr1::_Bind<std::tr1::_Notforced,std::tr1::_Bind6<std::tr1::_Callable_fun<void (__cdecl*const)(Automation4::ProgressSink *,lua_State *,int,int,bool,bool *),0>,std::tr1::_Ph<1>,lua_State *,int,int,bool,bool *> >,0>,void,Automation4::ProgressSink *,std::allocator<int> >::_Do_call</name>
+      <file line='62'>c:\program files (x86)\microsoft visual studio 9.0\vc\include\xxfunction</file>
+      <module><![CDATA[]]></module>
+    </frame>
+    <frame id='4' loc='00601832'>
+      <name>Automation4::progress_sink_wrapper</name>
+      <file line='309'>c:\msys\src\aegisub\aegisub\src\auto4_base.cpp</file>
+      <module><![CDATA[]]></module>
+    </frame>
+    <frame id='5' loc='0008E361'>
+      <name>std::tr1::_Impl1<std::tr1::_Callable_obj<std::tr1::_Bind<std::tr1::_Notforced,std::tr1::_Bind3<std::tr1::_Callable_fun<void (__cdecl*const)(std::tr1::function<void __cdecl(Automation4::ProgressSink *)>,agi::ProgressSink *,Automation4::BackgroundScriptRunner *),0>,std::tr1::function<void __cdecl(Automation4::ProgressSink *)>,std::tr1::_Ph<1>,Automation4::BackgroundScriptRunner *> >,0>,void,agi::ProgressSink *,std::allocator<int> >::_Do_call</name>
+      <file line='62'>c:\program files (x86)\microsoft visual studio 9.0\vc\include\xxfunction</file>
+      <module><![CDATA[]]></module>
+    </frame>
+    <frame id='6' loc='000A8FB6'>
+      <name>TaskRunner::Entry</name>
+      <file line='16707566'>c:\msys\src\aegisub\aegisub\src\dialog_progress.cpp</file>
+      <module><![CDATA[]]></module>
+    </frame>
+    <frame id='7' loc='0032FACA'>
+      <name>wxThreadInternal::DoThreadStart</name>
+      <file line='575'>c:\msys\src\wx\src\msw\thread.cpp</file>
+      <module><![CDATA[]]></module>
+    </frame>
+    <frame id='8' loc='0032FB90'>
+      <name>wxThreadInternal::WinThreadStart</name>
+      <file line='607'>c:\msys\src\wx\src\msw\thread.cpp</file>
+      <module><![CDATA[]]></module>
+    </frame>
+    <frame id='9' loc='72943433'>
+      <name>endthreadex</name>
+      <module><![CDATA[]]></module>
+    </frame>
+    <frame id='10' loc='729434C7'>
+      <name>endthreadex</name>
+      <module><![CDATA[]]></module>
+    </frame>
+    <frame id='11' loc='76BD33CA'>
+      <name>BaseThreadInitThunk</name>
+      <module><![CDATA[]]></module>
+    </frame>
+    <frame id='12' loc='77369ED2'>
+      <name>RtlInitializeExceptionChain</name>
+      <module><![CDATA[]]></module>
+    </frame>
+    <frame id='13' loc='77369EA5'>
+      <name>RtlInitializeExceptionChain</name>
+      <module><![CDATA[]]></module>
+    </frame>
+  </trace>
+</crash>

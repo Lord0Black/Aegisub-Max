@@ -1,0 +1,6 @@
+META
+	name:Template group 1
+	version:2.0
+DATA
+Template 1:
+	0,rb,0,0,Default,\blur2

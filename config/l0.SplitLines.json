@@ -1,0 +1,1 @@
+{"__version":"0.1.0","splitAtEvenInterval":{"interval":3},"splitAtIndexes":{"indexes":"2, 4, 9, 17"},"splitAtCustomInterval":{"expr":"step = 1 \/ 20\nx = 2 > step and x-step or 15\/5\n1 + max(15, 2)"}}
